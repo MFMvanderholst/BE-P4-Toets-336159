@@ -23,6 +23,7 @@
         
         <?= $data['rows']; ?>
         
+        
         </tbody>
     </table>
     
