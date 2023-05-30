@@ -2,15 +2,15 @@
 
     class Rijexamen extends BaseController
     {
-        private $rijexamenmodel;
+        private $rijexamenModel;
 
         public function __construct()
         {
-            $this->rijexamenmodel = $this->model('RijexamenModel');
+            $this->rijexamenModel = $this->model('RijexamenModel');
         }
 
         public function OverzichtRijExamen()
         {
-            
+            $result = $this->rijexaMenmodel->getOvezicht();
         }
     }
