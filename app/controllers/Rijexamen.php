@@ -9,9 +9,10 @@
             $this->rijexamenModel = $this->model('RijexamenModel');
         }
 
-        public function OverzichtRijExamen()
+        
+        public function index()
         {
-            $result = $this->rijexamenModel->getOvezicht();
+            $result = $this->rijexamenModel->getOverzicht();
 
             
 
